@@ -1,0 +1,23 @@
+{
+  "name": "mcp-red-web-utils",
+  "version": "1.0.0",
+  "description": "MCP server for red-web-utils: 17 pay-per-call web, finance, legal and onchain utilities (x402/MPP, USDC on Base).",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "mcp-red-web-utils": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "x402-fetch": "^0.4.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hsharmanov02/red-web-utils-mcp.git"
+  },
+  "homepage": "https://red-web-utils.agent-tools-x402.workers.dev"
+}
